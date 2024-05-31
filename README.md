@@ -14,3 +14,8 @@ View each page and be able to toggle between the tabs to see new information
 
 ## Built with
 
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
+Mobile-first workflow
