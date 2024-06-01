@@ -28,7 +28,9 @@ const Left = styled.div`
   gap: 20px;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 74px;
+`;
 
 const WhatWeDo = styled.div``;
 
