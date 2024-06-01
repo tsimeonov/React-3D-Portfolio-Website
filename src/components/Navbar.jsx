@@ -46,6 +46,11 @@ const Icon = styled.img`
 `;
 
 const Button = styled.button`
+  width: 100px;
+  padding: 10px;
+  background-color: #da4ea2;
+  color: white;
+  border: none;
   cursor: pointer;
 `;
 
