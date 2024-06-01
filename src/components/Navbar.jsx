@@ -11,10 +11,25 @@ const Container = styled.div`
   background-color: rebeccapurple;
 `;
 
+const Links = styled.div``;
+
+const Icons = styled.div``;
+
 export const Navbar = () => {
   return (
     <Section>
-      <Container>Navbar</Container>
+      <Container>
+        <Links>
+          <Logo src="./public/img/logo.png" />
+          <List>
+            <ListItem>Home</ListItem>
+            <ListItem>Studio</ListItem>
+            <ListItem>Works</ListItem>
+            <ListItem>Contact</ListItem>
+          </List>
+        </Links>
+        <Icons></Icons>
+      </Container>
     </Section>
   );
 };
