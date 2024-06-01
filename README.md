@@ -25,3 +25,10 @@ Mobile-first workflow
 ```
 yarn run dev
 ```
+
+- A shorthand for creating functional components using arrow functions.
+
+```
+// React arrow function comonent
+rafc
+```
