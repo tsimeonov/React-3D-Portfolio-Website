@@ -32,7 +32,11 @@ const Title = styled.h1`
   font-size: 74px;
 `;
 
-const WhatWeDo = styled.div``;
+const WhatWeDo = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
 
 const Line = styled.img``;
 
@@ -57,7 +61,7 @@ const Hero = () => {
           <Title>Think. Make. Solve</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Wht we do</Subtitle>
+            <Subtitle>What we do</Subtitle>
           </WhatWeDo>
           <Desc>
             we wnjoy creating delightful, human-centered digital experiences.
