@@ -19,3 +19,9 @@ CSS custom properties
 Flexbox
 CSS Grid
 Mobile-first workflow
+
+## Commads
+
+```
+yarn run dev
+```
