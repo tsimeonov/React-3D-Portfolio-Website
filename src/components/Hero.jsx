@@ -46,7 +46,10 @@ const Subtitle = styled.h2`
   color: #da4ea2;
 `;
 
-const Desc = styled.p``;
+const Desc = styled.p`
+  font-size: 24px;
+  color: lightgray;
+`;
 
 const Button = styled.button``;
 
