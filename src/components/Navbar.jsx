@@ -20,7 +20,7 @@ export const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./public/img/logo.png" />
+          <Logo src="./img/logo.png" />
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Studio</ListItem>
@@ -28,7 +28,10 @@ export const Navbar = () => {
             <ListItem>Contact</ListItem>
           </List>
         </Links>
-        <Icons></Icons>
+        <Icons>
+          <Icon src="./img/search.png" />
+          <Button>Hire Now</Button>
+        </Icons>
       </Container>
     </Section>
   );
