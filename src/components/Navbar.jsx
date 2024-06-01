@@ -13,7 +13,11 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Links = styled.div``;
+const Links = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 50px;
+`;
 
 const Logo = styled.img``;
 const List = styled.ul``;
