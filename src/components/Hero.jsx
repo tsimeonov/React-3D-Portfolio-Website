@@ -20,9 +20,16 @@ const Container = styled.section`
   justify-content: space-between;
 `;
 
-const Left = styled.section``;
+const Left = styled.div``;
+const Title = styled.h1``;
+const WhatWeDo = styled.div``;
+const Line = styled.img``;
+const Subtitle = styled.h2``;
+const Desc = styled.p``;
+const Button = styled.button``;
 
-const Right = styled.section``;
+const Right = styled.div``;
+const Img = styled.img``;
 
 const Hero = () => {
   return (
