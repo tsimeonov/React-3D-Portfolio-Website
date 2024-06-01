@@ -20,15 +20,26 @@ const Container = styled.section`
   justify-content: space-between;
 `;
 
-const Left = styled.div``;
+const Left = styled.div`
+  flex: 2;
+`;
+
 const Title = styled.h1``;
+
 const WhatWeDo = styled.div``;
+
 const Line = styled.img``;
+
 const Subtitle = styled.h2``;
+
 const Desc = styled.p``;
+
 const Button = styled.button``;
 
-const Right = styled.div``;
+const Right = styled.div`
+  flex: 3;
+`;
+
 const Img = styled.img``;
 
 const Hero = () => {
