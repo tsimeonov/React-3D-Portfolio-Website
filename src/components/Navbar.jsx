@@ -11,6 +11,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0;
 `;
 
 const Links = styled.div`
@@ -29,13 +30,24 @@ const List = styled.ul`
   list-style: none;
 `;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  cursor: pointer;
+`;
 
-const Icons = styled.div``;
+const Icons = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 50px;
+`;
 
-const Icon = styled.img``;
+const Icon = styled.img`
+  width: 20px;
+  cursor: pointer;
+`;
 
-const Button = styled.button``;
+const Button = styled.button`
+  cursor: pointer;
+`;
 
 export const Navbar = () => {
   return (
