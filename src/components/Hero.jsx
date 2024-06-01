@@ -35,8 +35,15 @@ const Hero = () => {
             <Line src="./img/line.png" />
             <Subtitle>Wht we do</Subtitle>
           </WhatWeDo>
+          <Desc>
+            we wnjoy creating delightful, human-centered digital experiences.
+          </Desc>
+          <Button>Learn More</Button>
         </Left>
-        <Right></Right>
+        <Right>
+          {/* 3D Model */}
+          <Img src="./img/moon.png" />
+        </Right>
       </Container>
     </Section>
   );
