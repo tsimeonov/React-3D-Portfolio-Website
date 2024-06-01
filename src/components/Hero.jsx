@@ -20,11 +20,24 @@ const Container = styled.section`
   justify-content: space-between;
 `;
 
+const Left = styled.section``;
+
+const Right = styled.section``;
+
 const Hero = () => {
   return (
     <Section>
       <Navbar />
-      <Container>Hero</Container>
+      <Container>
+        <Left>
+          <Title>Think. Make. Solve</Title>
+          <WhatWeDo>
+            <Line src="./img/line.png" />
+            <Subtitle>Wht we do</Subtitle>
+          </WhatWeDo>
+        </Left>
+        <Right></Right>
+      </Container>
     </Section>
   );
 };
