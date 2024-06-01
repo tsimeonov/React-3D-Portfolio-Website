@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Navbar } from "./Navbar";
 
 const Section = styled.section`
@@ -77,6 +77,13 @@ const Img = styled.img`
   left: 0;
   right: 0;
   margin: auto;
+  animation: animate 2s infinite ease alternate;
+
+  @keyframes animate {
+    to {
+      transform: translateY(20px);
+    }
+  }
 `;
 
 const Hero = () => {
