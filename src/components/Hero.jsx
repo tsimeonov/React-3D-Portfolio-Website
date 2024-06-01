@@ -22,6 +22,10 @@ const Container = styled.section`
 
 const Left = styled.div`
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 `;
 
 const Title = styled.h1``;
