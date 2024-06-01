@@ -22,6 +22,14 @@ const Left = styled.div`
   flex: 1;
 `;
 
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+`;
+
 const Title = styled.h1`
   font-size: 74px;
 `;
@@ -56,29 +64,22 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const Right = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-`;
-
 const Who = () => {
   return (
     <Section>
       <Container>
         <Left>{/* 3D Model */}</Left>
         <Right>
-          <Title>Think. Make. Solve</Title>
+          <Title>Think outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What we do</Subtitle>
+            <Subtitle>Who we are</Subtitle>
           </WhatWeDo>
           <Desc>
-            we wnjoy creating delightful, human-centered digital experiences.
+            a creative group of designers and developers with passion for
+            technology.
           </Desc>
-          <Button>Learn More</Button>
+          <Button>See our works</Button>
         </Right>
       </Container>
     </Section>
