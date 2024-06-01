@@ -16,12 +16,12 @@ const Left = styled.section`
   scroll-snap-align: center;
 `;
 
-const List = styled.section`
+const List = styled.ul`
   height: 100vh;
   scroll-snap-align: center;
 `;
 
-const ListItem = styled.section`
+const ListItem = styled.li`
   height: 100vh;
   scroll-snap-align: center;
 `;
