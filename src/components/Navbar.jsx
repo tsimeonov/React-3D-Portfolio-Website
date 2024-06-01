@@ -16,6 +16,7 @@ const Links = styled.div``;
 const Logo = styled.img``;
 const List = styled.ul``;
 const ListItem = styled.li``;
+const Icons = styled.div``;
 const Icon = styled.img``;
 const Button = styled.button``;
 
