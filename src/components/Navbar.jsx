@@ -8,7 +8,9 @@ const Section = styled.div`
 
 const Container = styled.div`
   width: 1400px;
-  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const Links = styled.div``;
