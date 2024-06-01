@@ -38,9 +38,13 @@ const WhatWeDo = styled.div`
   gap: 10px;
 `;
 
-const Line = styled.img``;
+const Line = styled.img`
+  height: 5px;
+`;
 
-const Subtitle = styled.h2``;
+const Subtitle = styled.h2`
+  color: #da4ea2;
+`;
 
 const Desc = styled.p``;
 
