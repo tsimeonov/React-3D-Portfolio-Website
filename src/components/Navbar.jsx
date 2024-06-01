@@ -19,15 +19,22 @@ const Links = styled.div`
   gap: 50px;
 `;
 
-const Logo = styled.img``;
+const Logo = styled.img`
+  height: 50px;
+`;
+
 const List = styled.ul`
   display: flex;
   gap: 20px;
   list-style: none;
 `;
+
 const ListItem = styled.li``;
+
 const Icons = styled.div``;
+
 const Icon = styled.img``;
+
 const Button = styled.button``;
 
 export const Navbar = () => {
