@@ -28,7 +28,12 @@ const Left = styled.section`
   align-items: center;
 `;
 
-const List = styled.ul``;
+const List = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;
 
 const ListItem = styled.li``;
 
