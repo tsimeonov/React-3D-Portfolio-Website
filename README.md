@@ -32,3 +32,9 @@ yarn run dev
 // React arrow function comonent
 rafc
 ```
+
+- Add a React map
+
+```
+yarn add react-simple-maps
+```
