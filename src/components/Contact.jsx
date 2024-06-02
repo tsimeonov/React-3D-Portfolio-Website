@@ -46,7 +46,20 @@ const Right = styled.section`
   scroll-snap-align: center;
 `;
 const Contact = () => {
-  return <Section>Contact</Section>;
+  return (
+    <Section>
+      <Container>
+        <Left>
+          <Form>
+            <Title>Contact us</Title>
+            <Input placeholder="Name" />
+            <Input placeholder="Email" />
+          </Form>
+        </Left>
+        <Right></Right>
+      </Container>
+    </Section>
+  );
 };
 
 export default Contact;
