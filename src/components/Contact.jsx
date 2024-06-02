@@ -6,7 +6,12 @@ const Section = styled.section`
   scroll-snap-align: center;
 `;
 
-const Container = styled.section``;
+const Container = styled.section`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+`;
 
 const Left = styled.section``;
 
