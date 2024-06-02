@@ -43,7 +43,15 @@ const TextArea = styled.textarea`
   border-radius: 5px;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+  background-color: #da4ea2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px;
+`;
 
 const Right = styled.section`
   flex: 1;
