@@ -25,7 +25,12 @@ const Title = styled.h1`
   font-weight: 200;
 `;
 
-const Form = styled.form``;
+const Form = styled.form`
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+`;
 
 const Input = styled.input``;
 
