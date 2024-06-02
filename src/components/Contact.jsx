@@ -16,17 +16,27 @@ const Left = styled.section`
   scroll-snap-align: center;
 `;
 
-const Title = styled.section`
+const Title = styled.h1`
   height: 100vh;
   scroll-snap-align: center;
 `;
 
-const Input = styled.section`
+const Input = styled.input`
   height: 100vh;
   scroll-snap-align: center;
 `;
 
-const Section = styled.section`
+const TextArea = styled.textarea`
+  height: 100vh;
+  scroll-snap-align: center;
+`;
+
+const Button = styled.button`
+  height: 100vh;
+  scroll-snap-align: center;
+`;
+
+const Right = styled.section`
   height: 100vh;
   scroll-snap-align: center;
 `;
