@@ -24,6 +24,8 @@ const Container = styled.section`
 
 const Left = styled.section`
   flex: 1;
+  display: flex;
+  align-items: center;
 `;
 
 const List = styled.ul``;
