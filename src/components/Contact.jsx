@@ -8,12 +8,18 @@ const Section = styled.section`
 
 const Container = styled.section`
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   gap: 50px;
 `;
 
-const Left = styled.section``;
+const Left = styled.section`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const Title = styled.h1``;
 
@@ -25,7 +31,10 @@ const TextArea = styled.textarea``;
 
 const Button = styled.button``;
 
-const Right = styled.section``;
+const Right = styled.section`
+  flex: 1;
+`;
+
 const Contact = () => {
   return (
     <Section>
