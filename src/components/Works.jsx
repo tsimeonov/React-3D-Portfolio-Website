@@ -36,10 +36,11 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 100px;
+  font-size: 90px;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
+  white-space: nowrap;
   -webkit-text-stroke: 1px white;
   position: relative;
 
