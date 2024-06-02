@@ -54,6 +54,8 @@ const Contact = () => {
             <Title>Contact us</Title>
             <Input placeholder="Name" />
             <Input placeholder="Email" />
+            <TextArea placeholder="Wtite your message" />
+            <Button>Send</Button>
           </Form>
         </Left>
         <Right></Right>
