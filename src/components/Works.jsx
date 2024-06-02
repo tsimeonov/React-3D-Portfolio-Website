@@ -35,7 +35,10 @@ const List = styled.ul`
   gap: 20px;
 `;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  font-size: 100px;
+  font-weight: bold;
+`;
 
 const Right = styled.section`
   flex: 2;
