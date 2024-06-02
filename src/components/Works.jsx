@@ -9,8 +9,9 @@ const Section = styled.section`
 `;
 
 const Container = styled.section`
-  height: 100vh;
-  scroll-snap-align: center;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const Left = styled.section`
