@@ -21,6 +21,11 @@ const Title = styled.h1`
   scroll-snap-align: center;
 `;
 
+const Form = styled.form`
+  height: 100vh;
+  scroll-snap-align: center;
+`;
+
 const Input = styled.input`
   height: 100vh;
   scroll-snap-align: center;
