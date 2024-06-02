@@ -44,7 +44,7 @@ const ListItem = styled.li`
   position: relative;
 
   &:after {
-    content: "Web Design";
+    content: "${(props) => props.text}";
     position: absolute;
     top: 0;
     left: 0;
@@ -62,7 +62,9 @@ const Works = () => {
         <Left>
           <List>
             {data.map((item) => (
-              <ListItem key={item}>{item}</ListItem>
+              <ListItem key={item} text={item}>
+                {item}
+              </ListItem>
             ))}
           </List>
         </Left>
