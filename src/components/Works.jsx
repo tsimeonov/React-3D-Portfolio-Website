@@ -43,7 +43,7 @@ const Works = () => {
         <Left>
           <List>
             {data.map((item) => (
-              <ListItem key={item}></ListItem>
+              <ListItem key={item}>{item}</ListItem>
             ))}
           </List>
         </Left>
