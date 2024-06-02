@@ -27,7 +27,18 @@ const Right = styled.section`
 `;
 
 const Works = () => {
-  return <Section>Works</Section>;
+  return (
+    <Section>
+      <Container>
+        <Left>
+          <List>
+            <ListItem></ListItem>
+          </List>
+        </Left>
+        <Right></Right>
+      </Container>
+    </Section>
+  );
 };
 
 export default Works;
