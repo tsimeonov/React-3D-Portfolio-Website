@@ -41,6 +41,14 @@ const ListItem = styled.li`
   cursor: pointer;
   color: transparent;
   -webkit-text-stroke: 1px white;
+  position: relative;
+
+  &:after {
+    content: "Web Design";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 `;
 
 const Right = styled.section`
