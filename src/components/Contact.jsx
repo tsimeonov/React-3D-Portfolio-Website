@@ -32,9 +32,16 @@ const Form = styled.form`
   gap: 25px;
 `;
 
-const Input = styled.input``;
+const Input = styled.input`
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+`;
 
-const TextArea = styled.textarea``;
+const TextArea = styled.textarea`
+  border: none;
+  border-radius: 5px;
+`;
 
 const Button = styled.button``;
 
