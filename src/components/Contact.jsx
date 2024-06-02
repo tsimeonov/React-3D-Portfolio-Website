@@ -66,7 +66,7 @@ const Contact = () => {
             <Title>Contact us</Title>
             <Input placeholder="Name" />
             <Input placeholder="Email" />
-            <TextArea placeholder="Wtite your message" />
+            <TextArea placeholder="Wtite your message" rows={10} />
             <Button>Send</Button>
           </Form>
         </Left>
