@@ -40,7 +40,7 @@ const ListItem = styled.li`
   font-weight: bold;
   cursor: pointer;
   color: transparent;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 1px white;
 `;
 
 const Right = styled.section`
