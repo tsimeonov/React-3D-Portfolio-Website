@@ -15,23 +15,15 @@ const Container = styled.section`
 `;
 
 const Left = styled.section`
-  height: 100vh;
-  scroll-snap-align: center;
+  flex: 1;
 `;
 
-const List = styled.ul`
-  height: 100vh;
-  scroll-snap-align: center;
-`;
+const List = styled.ul``;
 
-const ListItem = styled.li`
-  height: 100vh;
-  scroll-snap-align: center;
-`;
+const ListItem = styled.li``;
 
 const Right = styled.section`
-  height: 100vh;
-  scroll-snap-align: center;
+  flex: 2;
 `;
 
 const Works = () => {
