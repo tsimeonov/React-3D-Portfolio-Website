@@ -48,6 +48,22 @@ const ListItem = styled.li`
     position: absolute;
     top: 0;
     left: 0;
+    color: white;
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    &:after {
+      animation: moveText 0.5s linear both;
+
+      @keyframes moveText {
+        to {
+          width: 100%;
+        }
+      }
+    }
   }
 `;
 
