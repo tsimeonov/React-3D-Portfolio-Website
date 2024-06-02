@@ -21,7 +21,9 @@ const Left = styled.section`
   justify-content: center;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-weight: 200;
+`;
 
 const Form = styled.form``;
 
