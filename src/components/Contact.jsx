@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Map from "./Map";
@@ -60,6 +60,7 @@ const Right = styled.section`
 `;
 
 const ref = useRef();
+const [success, setSuccess] = useState(null);
 
 const handleSubmit = (e) => {
   e.preventDefault();
@@ -74,9 +75,11 @@ const handleSubmit = (e) => {
     .then(
       (result) => {
         console.log(result.text);
+        setSuccess(true);
       },
       (error) => {
         console.log(error.text);
+        setSuccess(false);
       }
     );
 };
@@ -92,6 +95,7 @@ const Contact = () => {
             <Input placeholder="Email" />
             <TextArea placeholder="Wtite your message" rows={10} />
             <Button type="submit">Send</Button>
+            {success && "Your message has been sent."}
           </Form>
         </Left>
         <Right>
