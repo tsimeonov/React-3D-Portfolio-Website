@@ -91,9 +91,13 @@ const Contact = () => {
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact us</Title>
-            <Input placeholder="Name" />
-            <Input placeholder="Email" />
-            <TextArea placeholder="Wtite your message" rows={10} />
+            <Input placeholder="Name" name="name" />
+            <Input placeholder="Email" name="email" />
+            <TextArea
+              placeholder="Wtite your message"
+              name="message"
+              rows={10}
+            />
             <Button type="submit">Send</Button>
             {success && "Your message has been sent."}
           </Form>
