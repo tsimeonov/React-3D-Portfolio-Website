@@ -16,6 +16,7 @@ const Map = () => {
         center: [-5, -3],
         scale: 1100,
       }}
+      style={{ width: "100%", height: "100%" }}
     >
       <Geographies
         geography="/features.json"
