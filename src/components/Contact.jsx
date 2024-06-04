@@ -66,10 +66,10 @@ const handleSubmit = (e) => {
 
   emailjs
     .sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
-      form.current,
-      "YOUR_PUBLIC_KEY"
+      "service_z3e16wo",
+      "template_kxzuyaq",
+      ref.current,
+      "TzMCuX0ZNLj8Hw-at"
     )
     .then(
       (result) => {
