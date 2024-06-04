@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "n",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "components": "^0.1.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-simple-maps": "^3.0.0",
     "styled": "^1.0.0",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.11",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
@@ -23,11 +25,8 @@
     "vite": "^4.0.0"
   },
   "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/safak/youtube23.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/safak/youtube23.git",
+  "author": "tsimeonov <tsimeonov12@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/safak/youtube23/issues"

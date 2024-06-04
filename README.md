@@ -22,6 +22,12 @@ Mobile-first workflow
 
 ## Commads
 
+- Add the styled components
+
+```
+yarn add styled-components
+```
+
 ```
 yarn run dev
 ```
@@ -37,4 +43,12 @@ rafc
 
 ```
 yarn add react-simple-maps
+```
+
+- There was a problem running `react-simple-maps`, to fix it run
+
+As of React 15.5.0, PropTypes have been removed from the core React package as a separate dependency. To fix this, add prop-types into your code:
+
+```
+npm install --save prop-types
 ```
