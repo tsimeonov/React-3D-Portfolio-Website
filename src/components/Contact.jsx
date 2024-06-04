@@ -58,17 +58,21 @@ const Right = styled.section`
   flex: 1;
 `;
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+};
+
 const Contact = () => {
   return (
     <Section>
       <Container>
         <Left>
-          <Form>
+          <Form onSubmit={handleSubmit}>
             <Title>Contact us</Title>
             <Input placeholder="Name" />
             <Input placeholder="Email" />
             <TextArea placeholder="Wtite your message" rows={10} />
-            <Button>Send</Button>
+            <Button type="submit">Send</Button>
           </Form>
         </Left>
         <Right>
