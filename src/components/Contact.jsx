@@ -59,6 +59,8 @@ const Right = styled.section`
   flex: 1;
 `;
 
+const ref = useRef();
+
 const handleSubmit = (e) => {
   e.preventDefault();
 
@@ -84,7 +86,7 @@ const Contact = () => {
     <Section>
       <Container>
         <Left>
-          <Form onSubmit={handleSubmit}>
+          <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact us</Title>
             <Input placeholder="Name" />
             <Input placeholder="Email" />
