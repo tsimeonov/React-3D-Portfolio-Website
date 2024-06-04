@@ -52,3 +52,9 @@ As of React 15.5.0, PropTypes have been removed from the core React package as a
 ```
 npm install --save prop-types
 ```
+
+- Add tje emailjs library
+
+```
+yarn add @emailjs/browser
+```
