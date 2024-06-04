@@ -59,32 +59,32 @@ const Right = styled.section`
   flex: 1;
 `;
 
-const ref = useRef();
-const [success, setSuccess] = useState(null);
-
-const handleSubmit = (e) => {
-  e.preventDefault();
-
-  emailjs
-    .sendForm(
-      "service_z3e16wo",
-      "template_kxzuyaq",
-      ref.current,
-      "TzMCuX0ZNLj8Hw-at"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-        setSuccess(true);
-      },
-      (error) => {
-        console.log(error.text);
-        setSuccess(false);
-      }
-    );
-};
-
 const Contact = () => {
+  const ref = useRef();
+  const [success, setSuccess] = useState(null);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_z3e16wo",
+        "template_kxzuyaq",
+        ref.current,
+        "TzMCuX0ZNLj8Hw-at"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSuccess(true);
+        },
+        (error) => {
+          console.log(error.text);
+          setSuccess(false);
+        }
+      );
+  };
+
   return (
     <Section>
       <Container>
