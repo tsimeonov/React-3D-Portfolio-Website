@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Map from "./Map";
 
@@ -60,6 +61,22 @@ const Right = styled.section`
 
 const handleSubmit = (e) => {
   e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "YOUR_SERVICE_ID",
+      "YOUR_TEMPLATE_ID",
+      form.current,
+      "YOUR_PUBLIC_KEY"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
 };
 
 const Contact = () => {
