@@ -20,7 +20,7 @@ Flexbox
 CSS Grid
 Mobile-first workflow
 
-## Commads
+### Commads
 
 - Add the styled components
 
