@@ -58,3 +58,9 @@ npm install --save prop-types
 ```
 yarn add @emailjs/browser
 ```
+
+- Adding dependicies
+
+```
+yarn add three @react-three/fiber @react-three/drei
+```
