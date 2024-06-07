@@ -13,7 +13,7 @@ const Test = () => {
   return (
     <Container>
       <Canvas>
-        <OrbitControls />
+        <OrbitControls enableZoom={false} />
         <mesh>
           <boxGeometry args={[1, 1, 1]} />
         </mesh>
