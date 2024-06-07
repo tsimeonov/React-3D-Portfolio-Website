@@ -16,7 +16,7 @@ const Test = () => {
         <OrbitControls enableZoom={false} />
         <mesh>
           <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial color={red} />
+          <meshStandardMaterial color="red" />
         </mesh>
       </Canvas>
     </Container>
