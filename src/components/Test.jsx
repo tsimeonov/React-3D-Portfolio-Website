@@ -1,3 +1,5 @@
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 import React from "react";
 import styled from "styled-components";
 
@@ -7,16 +9,17 @@ const Container = styled.div`
   scroll-snap-align: center;
 `;
 
-export const Test = () => {
-  return;
-
-  <Container>
-    <Canvas>
-      <mesh>
-        <boxGeometry args={[5, 5, 5]} />
-      </mesh>
-    </Canvas>
-  </Container>;
+const Test = () => {
+  return (
+    <Container>
+      <Canvas>
+        <OrbitControls />
+        <mesh>
+          <boxGeometry args={[1, 1, 1]} />
+        </mesh>
+      </Canvas>
+    </Container>
+  );
 };
 
 export default Test;
