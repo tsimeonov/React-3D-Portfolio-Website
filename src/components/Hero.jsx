@@ -1,6 +1,8 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Navbar } from "./Navbar";
+import { OrbitControls, MeshDiscardMaterial, Sphere } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 
 const Section = styled.section`
   height: 100vh;
@@ -103,7 +105,13 @@ const Hero = () => {
           <Button>Learn More</Button>
         </Left>
         <Right>
-          {/* 3D Model */}
+          <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
+            <OrbitControls enableZoom={false} autoRotate />
+            <ambientLight intensity={1} />
+            <directionalLight position={[3, 2, 1]} />
+            <Sphere args={[1, 100, 200]} scale={1} />
+            <MeshDiscardMaterial />
+          </Canvas>
           <Img src="./img/moon.png" />
         </Right>
       </Container>
