@@ -1,19 +1,17 @@
-import React from "react";
-import styled, { keyframes } from "styled-components";
+import React, { Suspense } from "react";
+import styled from "styled-components";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Cube from "./Cube";
 
-const Section = styled.section`
+const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  justify-content: center;
 `;
 
-const Container = styled.section`
+const Container = styled.div`
   height: 100vh;
   scroll-snap-align: center;
   width: 1400px;
@@ -23,6 +21,18 @@ const Container = styled.section`
 
 const Left = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const Title = styled.h1`
+  font-size: 74px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 
 const Right = styled.div`
@@ -31,10 +41,11 @@ const Right = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-`;
 
-const Title = styled.h1`
-  font-size: 74px;
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 const WhatWeDo = styled.div`
@@ -72,22 +83,24 @@ const Who = () => {
     <Section>
       <Container>
         <Left>
-          <Canvas camera={{ fov: 25, position: [5] }}>
-            <OrbitControls enableZoom={false} />
-            <ambientLight intensity={1} />
-            <directionalLight position={[3, 2, 1]} />
-            <Cube />
+          <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
+            <Suspense fallback={null}>
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[3, 2, 1]} />
+              <Cube />
+              <OrbitControls enableZoom={false} autoRotate />
+            </Suspense>
           </Canvas>
         </Left>
         <Right>
           <Title>Think outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we are</Subtitle>
+            <Subtitle>Who we Are</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with passion for
-            technology.
+            a creative group of designers and developers with a passion for the
+            arts.
           </Desc>
           <Button>See our works</Button>
         </Right>
