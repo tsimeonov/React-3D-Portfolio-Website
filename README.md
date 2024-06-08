@@ -36,7 +36,7 @@ yarn run dev
 
 ```
 // React arrow function comonent
-rafc
+rafce
 ```
 
 - Add a React map
