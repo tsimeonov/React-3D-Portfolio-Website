@@ -105,7 +105,7 @@ const Hero = () => {
           <Button>Learn More</Button>
         </Left>
         <Right>
-          <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
+          <Canvas>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
