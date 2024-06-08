@@ -106,7 +106,7 @@ const Hero = () => {
         </Left>
         <Right>
           <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
-            <OrbitControls enableZoom={false} autoRotate />
+            <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1, 100, 200]} scale={1} />
