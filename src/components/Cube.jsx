@@ -6,7 +6,8 @@ import { useFrame } from "@react-three/fiber";
 const Cube = () => {
   const textRef = useRef();
   useFrame(
-    (state) => (textRef.current.position.x = Math.sin(state.clock.elapsedTime))
+    (state) =>
+      (textRef.current.position.x = Math.sin(state.clock.elapsedTime) * 2)
   );
   return (
     <mesh>
@@ -15,7 +16,7 @@ const Cube = () => {
         <RenderTexture attach="map">
           <PerspectiveCamera makeDefault position={[0, 0, 5]} />
           <color attach="background" args={["#dc9dcd"]} />
-          <Text ref={textRef} fontSize={0.5} color="#555">
+          <Text ref={textRef} fontSize={3} color="#555">
             hello
           </Text>
         </RenderTexture>
