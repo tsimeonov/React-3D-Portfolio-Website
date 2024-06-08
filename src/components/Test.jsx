@@ -26,7 +26,7 @@ const Test = () => {
           <meshStandardMaterial>
             <RenderTexture attach="map">
               <PerspectiveCamera makeDefault position={[0, 0, 2]} />
-              <color attach="background" args={["pink"]} />
+              <color attach="background" args={["#dc9dcd"]} />
               <Text fontSize={0.5} color="#555">
                 hello
               </Text>
