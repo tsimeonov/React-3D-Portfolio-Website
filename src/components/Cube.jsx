@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  OrbitControls,
+  PerspectiveCamera,
+  RenderTexture,
+  Text,
+} from "@react-three/drei";
 
 const Cube = () => {
   return (
