@@ -1,7 +1,12 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Navbar } from "./Navbar";
-import { OrbitControls, MeshDiscardMaterial, Sphere } from "@react-three/drei";
+import {
+  OrbitControls,
+  MeshDiscardMaterial,
+  Sphere,
+  MeshDistortMaterial,
+} from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 const Section = styled.section`
@@ -110,7 +115,7 @@ const Hero = () => {
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1, 100, 200]} scale={1}>
-              <MeshDiscardMaterial
+              <MeshDistortMaterial
                 color="#220736"
                 attach={"material"}
                 distort={0.5}
