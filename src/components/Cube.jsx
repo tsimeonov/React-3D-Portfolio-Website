@@ -5,8 +5,10 @@ import {
   RenderTexture,
   Text,
 } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 
 const Cube = () => {
+  useFrame((state) => console.log(state));
   return (
     <mesh>
       <boxGeometry args={[2, 2, 2]} />
