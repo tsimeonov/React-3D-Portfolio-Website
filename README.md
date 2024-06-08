@@ -64,3 +64,9 @@ yarn add @emailjs/browser
 ```
 yarn add three @react-three/fiber @react-three/drei
 ```
+
+- Run the command globally
+
+```
+npm install -g gilf-pipeline
+```
