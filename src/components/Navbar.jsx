@@ -16,6 +16,10 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Links = styled.div`
