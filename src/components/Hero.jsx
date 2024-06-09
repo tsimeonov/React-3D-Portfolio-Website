@@ -17,6 +17,10 @@ const Section = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    height: 200vh;
+  }
 `;
 
 const Container = styled.section`
@@ -25,6 +29,12 @@ const Container = styled.section`
   width: 1400px;
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const Left = styled.div`
@@ -97,7 +107,7 @@ const Hero = () => {
   return (
     <Section>
       <Navbar />
-      {/* <Container>
+      <Container>
         <Left>
           <Title>Think. Make. Solve</Title>
           <WhatWeDo>
@@ -125,7 +135,7 @@ const Hero = () => {
           </Canvas>
           <Img src="./img/moon.png" />
         </Right>
-      </Container> */}
+      </Container>
     </Section>
   );
 };
