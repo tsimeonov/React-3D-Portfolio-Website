@@ -53,6 +53,10 @@ const Left = styled.div`
 
 const Title = styled.h1`
   font-size: 74px;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const WhatWeDo = styled.div`
