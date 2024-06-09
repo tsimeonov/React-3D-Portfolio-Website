@@ -17,6 +17,10 @@ const Section = styled.section`
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
 `;
 
 const Container = styled.section`
