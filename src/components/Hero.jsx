@@ -44,6 +44,11 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    align-items: center;
+  }
 `;
 
 const Title = styled.h1`
@@ -83,6 +88,10 @@ const Button = styled.button`
 const Right = styled.div`
   flex: 3;
   position: relative;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+  }
 `;
 
 const Img = styled.img`
