@@ -100,6 +100,7 @@ const Right = styled.div`
 
   @media only screen and (max-width: 768px) {
     flex: 1;
+    width: 100%;
   }
 `;
 
