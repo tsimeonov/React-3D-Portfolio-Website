@@ -5,7 +5,16 @@ import Chair from "./Chair";
 import Mac from "./Mac";
 import styled from "styled-components";
 
-const Desc = styled.div``;
+const Desc = styled.div`
+  width: 200px;
+  height: 70px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+`;
 
 const WebDesign = () => {
   return (
