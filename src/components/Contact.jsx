@@ -57,6 +57,10 @@ const Button = styled.button`
 
 const Right = styled.section`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Contact = () => {
