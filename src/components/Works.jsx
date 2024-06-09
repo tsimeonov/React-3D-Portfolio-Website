@@ -60,6 +60,12 @@ const ListItem = styled.li`
   -webkit-text-stroke: 1px white;
   position: relative;
 
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke: 0px;
+  }
+
   &:after {
     content: "${(props) => props.text}";
     position: absolute;
