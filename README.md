@@ -70,3 +70,9 @@ yarn add three @react-three/fiber @react-three/drei
 ```
 npm install -g gilf-pipeline
 ```
+
+- Convert gitf to jsx
+
+```
+npx gltfjsx model.gltf --transform
+```
