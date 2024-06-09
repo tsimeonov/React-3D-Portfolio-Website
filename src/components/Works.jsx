@@ -41,6 +41,7 @@ const Left = styled.section`
 
   @media only screen and (max-width: 768px) {
     padding: 20px;
+    justify-content: center;
   }
 `;
 
