@@ -97,7 +97,7 @@ const Hero = () => {
   return (
     <Section>
       <Navbar />
-      <Container>
+      {/* <Container>
         <Left>
           <Title>Think. Make. Solve</Title>
           <WhatWeDo>
@@ -125,7 +125,7 @@ const Hero = () => {
           </Canvas>
           <Img src="./img/moon.png" />
         </Right>
-      </Container>
+      </Container> */}
     </Section>
   );
 };
