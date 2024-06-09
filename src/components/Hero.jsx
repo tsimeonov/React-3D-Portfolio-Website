@@ -24,7 +24,7 @@ const Section = styled.section`
 `;
 
 const Container = styled.section`
-  height: 100vh;
+  height: 100%;
   scroll-snap-align: center;
   width: 1400px;
   display: flex;
