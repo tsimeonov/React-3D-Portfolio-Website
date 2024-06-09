@@ -11,7 +11,7 @@ Title: Office chair
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
-export default function Model(props) {
+export function Model(props) {
   const { nodes, materials } = useGLTF("/chair-transformed.glb");
   return (
     <group {...props} dispose={null}>
